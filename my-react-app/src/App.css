@@ -1,0 +1,30 @@
+.Card {
+    border: 1px solid rgba(8, 56, 93, .5) !important;
+}
+.Card:hover {
+    border: 1px solid white !important;
+    box-shadow: inset 0 0 30px 30px rgba(8, 56, 93, .5) !important;
+}
+
+.Card-Body {
+    padding-block: 0 !important;
+}
+
+.Card-Title {
+    color: white !important;
+    font-size: 2.5rem !important;
+    text-align: center;
+    background-color: #08385d;
+    padding-block: 5px;
+}
+
+.Card-Subtitle {
+    color: #08385d !important;
+}
+
+.Nat-Age span {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #08385d;
+}
